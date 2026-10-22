@@ -1,0 +1,8 @@
+streamlit==1.65.0
+fastapi==0.144.0
+pydantic==2.14.1
+uvicorn==0.54.0
+mysql-connector-python==26.7.0
+pandas==2.3.3
+pytest==9.1.1
+requests==2.34.2
