@@ -133,8 +133,6 @@ Install the following before getting started:
 
 ### 1. Clone the Repository
 
-Replace the repository URL below with your own repository URL if necessary.
-
 ```bash
 git clone https://github.com/muddassir-data/spendwise-expense-tracker.git
 cd spendwise-expense-tracker
@@ -184,7 +182,7 @@ CREATE TABLE IF NOT EXISTS expenses (
 
 This creates the database and table if they do not already exist.
 
-**Note:** If your project uses an existing database schema, retain the schema expected by your application rather than creating a conflicting table.
+
 
 ### 5. Configure Database Credentials
 
