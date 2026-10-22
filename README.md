@@ -87,30 +87,37 @@ When the backend is running, interactive API documentation is available at:
 
 ## Project Structure
 
+## Project Structure
+
 ```text
 spendwise-expense-tracker/
 ├── backend/
-│   ├── server.py
-│   ├── db_helper.py
-│   └── logging_setup.py
+│   ├── server.py                  # FastAPI routes and API endpoints
+│   ├── db_helper.py               # MySQL connection and database operations
+│   └── logging_setup.py           # Logging configuration
+│
 ├── frontend/
-│   ├── app.py
-│   ├── add_update_ui.py
-│   ├── analytics_by_category.py
-│   ├── analytics_by_month.py
-│   └── spendwise_icon.png
+│   ├── app.py                     # Main Streamlit application and page layout
+│   ├── add_update_ui.py           # Add and update daily expenses
+│   ├── analytics_by_category.py   # Category-wise expense analytics
+│   ├── analytics_by_month.py      # Monthly spending analytics
+│   └── spendwise_icon.png         # Application logo
+│
 ├── test/
-│   ├── conftest.py
+│   ├── conftest.py                # Pytest configuration and import setup
 │   └── backend/
-│       └── test_db_helper.py
+│       └── test_db_helper.py      # Tests for database helper functions
+│
 ├── screenshots/
-│   ├── add_update.png
-│   ├── by_category.png
-│   └── by_months.png
-├── requirements.txt
-├── LICENSE
-└── README.md
+│   ├── add_update.png            
+│   ├── by_category.png            
+│   └── by_months.png              
+│
+├── requirements.txt               # Python dependencies
+├── LICENSE                        # Project license
+└── README.md                      # Project documentation
 ```
+
 
 ## Getting Started
 
@@ -261,16 +268,7 @@ A few implementation choices helped me understand how to build a maintainable ap
 - Database credentials require safer configuration.
 - Tests use the development database rather than a dedicated test database.
 
-## Future Improvements
 
-Potential improvements include:
-
-- User authentication and individual expense records.
-- A separate test database with fixtures.
-- Year-aware monthly analytics.
-- CSV and Excel export.
-- Spending forecasts and unusual-expense detection using Pandas and scikit-learn.
-- Improved deployment and configuration management.
 
 ## Acknowledgements
 
@@ -281,7 +279,7 @@ I started this project while following a Python project course by Codebasics and
 **Muddassir Ahmad**
 
 - GitHub: [@muddassir-data](https://github.com/muddassir-data)
-- LinkedIn: [Add your LinkedIn profile URL](https://www.linkedin.com/)
+- LinkedIn: [www.linkedin.com/in/muddassir-ai]
 
 ---
 
