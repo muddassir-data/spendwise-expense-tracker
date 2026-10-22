@@ -219,15 +219,15 @@ Keep both the backend and frontend running while using the application.
 
 ### Add / Update Expenses
 
-![SpendWise Add and Update](screenshots/add_update.png)
+![SpendWise Add and Update](screenshots/add_update.png.png)
 
 ### Analytics by Category
 
-![SpendWise Category Analytics](screenshots/by_category.png)
+![SpendWise Category Analytics](screenshots/by_category.png.png)
 
 ### Analytics by Month
 
-![SpendWise Monthly Analytics](screenshots/by_months.png)
+![SpendWise Monthly Analytics](screenshots/by_month.png.png)
 
 ## Running Tests
 
