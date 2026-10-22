@@ -268,11 +268,12 @@ A few implementation choices helped me understand how to build a maintainable ap
 - Database credentials require safer configuration.
 - Tests use the development database rather than a dedicated test database.
 
-
-
 ## Acknowledgements
 
-I started this project while following a Python project course by Codebasics and extended it with my own branding, categories, error handling, analytics, and documentation.
+I started this project while following a Python project course by Codebasics and extended it with my own branding, categories, error handling, analytics, and documentation.  
+
+## 📄 License
+This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
 
 ## Author
 
